@@ -1,0 +1,641 @@
+{
+    "tim-chuoi": {
+        "heading": "Bài học: Tìm chuỗi",
+        "tutorial": {
+            "src": "https://www.youtube.com/embed/-e_DbsKog-c?autoplay=1"
+        },
+        "quiz-1": {
+            "question": {
+                "type": "text",
+                "src": null,
+                "content": [
+                    {
+                        "data": "Em hãy tính tổng của dãy số liên tiếp: ",
+                        "center": false
+                    },
+                    {
+                        "data": "1 + 3 + 5 + 7 + 9",
+                        "center": true
+                    }
+                ]
+            },
+            "answer": {
+                "type": "text",
+                "answer": [
+                    "25",
+                    "21",
+                    "38",
+                    "92"
+                ],
+                "true-answer": 0
+            },
+            "solution": {
+                "src": "https://www.youtube.com/embed/GhW8YwGptc0?autoplay=1"
+            },
+            "last-question": false
+        },
+        "quiz-2": {
+            "question": {
+                "type": "text",
+                "src": null,
+                "content": [
+                    {
+                        "data": "Em hãy tính tổng của dãy số liên tiếp: ",
+                        "center": false
+                    },
+                    {
+                        "data": "7 + 10 + 13 +  16 + 19",
+                        "center": true
+                    }
+                ]
+            },
+            "answer": {
+                "type": "text",
+                "answer": [
+                    "10",
+                    "21",
+                    "65",
+                    "92"
+                ],
+                "true-answer": 2
+            },
+            "solution": {
+                "src": "https://www.youtube.com/embed/0BfQDTzX9L8?autoplay=1"
+            },
+            "last-question": false
+        },
+        "quiz-3": {
+            "question": {
+                "type": "text",
+                "src": null,
+                "content": [
+                    {
+                        "data": "Em hãy tính tổng của dãy số liên tiếp: ",
+                        "center": false
+                    },
+                    {
+                        "data": "1 + 4 + 7 + 10 + 13 + 16",
+                        "center": true
+                    }
+                ]
+            },
+            "answer": {
+                "type": "text",
+                "answer": [
+                    "10",
+                    "51",
+                    "65",
+                    "92"
+                ],
+                "true-answer": 1
+            },
+            "solution": {
+                "src": "https://www.youtube.com/embed/uKnbvnMJruE?autoplay=1"
+            },
+            "last-question": false
+        },
+        "quiz-4": {
+            "question": {
+                "type": "text",
+                "src": null,
+                "content": [
+                    {
+                        "data": "Em hãy tính tổng của dãy số liên tiếp: ",
+                        "center": false
+                    },
+                    {
+                        "data": "1 + 2 + ... + 10 + 11 + ... + 19 + 20",
+                        "center": true
+                    }
+                ]
+            },
+            "answer": {
+                "type": "text",
+                "answer": [
+                    "10",
+                    "51",
+                    "65",
+                    "210"
+                ],
+                "true-answer": 3
+            },
+            "solution": {
+                "src": "https://www.youtube.com/embed/bG1Pqhr2yMA?autoplay=1"
+            },
+            "last-question": false
+        },
+        "quiz-5": {
+            "question": {
+                "type": "text",
+                "src": null,
+                "content": [
+                    {
+                        "data": "Em hãy tìm 3 số  tự nhiên liên tiếp có tổng là 24",
+                        "center": false
+                    }
+                ]
+            },
+            "answer": {
+                "type": "text",
+                "answer": [
+                    "7, 8, 9",
+                    "10, 11, 12",
+                    "13, 14, 15",
+                    "0, 1, 2"
+                ],
+                "true-answer": 0
+            },
+            "solution": {
+                "src": "https://www.youtube.com/embed/Enkd2pO8mfU?autoplay=1"
+            },
+            "last-question": false
+        },
+        "quiz-6": {
+            "question": {
+                "type": "text",
+                "src": null,
+                "content": [
+                    {
+                        "data": "Em hãy tìm 5 số  tự nhiên liên tiếp có tổng là 50",
+                        "center": false
+                    }
+                ]
+            },
+            "answer": {
+                "type": "text",
+                "answer": [
+                    "7, 8, 9, 10, 11",
+                    "10, 11, 12, 15, 20",
+                    "13, 14, 15, 22, 11",
+                    "8, 9, 10, 11, 12"
+                ],
+                "true-answer": 3
+            },
+            "solution": {
+                "src": "https://www.youtube.com/embed/1BhYwuS-GCY?autoplay=1"
+            },
+            "last-question": false
+        },
+        "quiz-7": {
+            "question": {
+                "type": "text",
+                "src": null,
+                "content": [
+                    {
+                        "data": "Em hãy tìm 7 số  tự nhiên liên tiếp có tổng là 63",
+                        "center": false
+                    }
+                ]
+            },
+            "answer": {
+                "type": "text",
+                "answer": [
+                    "6, 7, 8, 9, 10, 11, 12",
+                    "10, 11, 12, 15, 20",
+                    "13, 14, 15, 22, 11, 23, 24",
+                    "8, 9, 10, 11, 12, 13, 14"
+                ],
+                "true-answer": 0
+            },
+            "solution": {
+                "src": "https://www.youtube.com/embed/stcF7m-DRrU?autoplay=1"
+            },
+            "last-question": false
+        },
+        "quiz-8": {
+            "question": {
+                "type": "text",
+                "src": null,
+                "content": [
+                    {
+                        "data": "Em hãy tìm 3 số lẻ liên tiếp có tổng là 27",
+                        "center": false
+                    }
+                ]
+            },
+            "answer": {
+                "type": "text",
+                "answer": [
+                    "10, 12, 14",
+                    "10, 11, 12",
+                    "3, 5, 7",
+                    "7, 9, 11"
+                ],
+                "true-answer": 3
+            },
+            "solution": {
+                "src": "https://www.youtube.com/embed/eijRo6rANss?autoplay=1"
+            },
+            "last-question": false
+        },
+        "quiz-9": {
+            "question": {
+                "type": "text",
+                "src": null,
+                "content": [
+                    {
+                        "data": "Em hãy tìm 7 số lẻ liên tiếp có tổng là 63",
+                        "center": false
+                    }
+                ]
+            },
+            "answer": {
+                "type": "text",
+                "answer": [
+                    "3, 5, 7, 9, 11, 13, 15",
+                    "10, 11, 12, 13, 14, 15, 16",
+                    "5, 7, 9, 11, 13, 15, 17",
+                    "7, 9, 11, 13, 15, 17, 19"
+                ],
+                "true-answer": 0
+            },
+            "solution": {
+                "src": "https://www.youtube.com/embed/byubvo9iu7s?autoplay=1"
+            },
+            "last-question": false
+        },
+        "quiz-10": {
+            "question": {
+                "type": "video",
+                "src": "https://www.youtube.com/embed/CkMSHrcX6hc?autoplay=1",
+                "content": null
+            },
+            "answer": {
+                "type": "text",
+                "answer": [
+                    "25",
+                    "27",
+                    "28",
+                    "31"
+                ],
+                "true-answer": 2
+            },
+            "solution": {
+                "src": "https://www.youtube.com/embed/Jxpedgh0XIY?autoplay=1"
+            },
+            "last-question": false
+        },
+        "quiz-11": {
+            "question": {
+                "type": "video",
+                "src": "https://www.youtube.com/embed/x5a9-lnRu-s?autoplay=1",
+                "content": null
+            },
+            "answer": {
+                "type": "text",
+                "answer": [
+                    "25",
+                    "27",
+                    "28",
+                    "175"
+                ],
+                "true-answer": 3
+            },
+            "solution": {
+                "src": "https://www.youtube.com/embed/40I8qytSKVE?autoplay=1"
+            },
+            "last-question": false
+        },
+        "quiz-12": {
+            "question": {
+                "type": "img",
+                "src": "tim-chuoi/bai13/bai13.png",
+                "content": null
+            },
+            "answer": {
+                "type": "text",
+                "answer": [
+                    "25",
+                    "56",
+                    "28",
+                    "175"
+                ],
+                "true-answer": 1
+            },
+            "solution": {
+                "src": "https://www.youtube.com/embed/nA0S0SFa1xw?autoplay=1"
+            },
+            "last-question": false
+        },
+        "quiz-13": {
+            "question": {
+                "type": "img",
+                "src": "tim-chuoi/bai14/bai14.png",
+                "content": null
+            },
+            "answer": {
+                "type": "text",
+                "answer": [
+                    "25",
+                    "56",
+                    "28",
+                    "91"
+                ],
+                "true-answer": 3
+            },
+            "solution": {
+                "src": "https://www.youtube.com/embed/U9EGhIbB8JQ?autoplay=1"
+            },
+            "last-question": false
+        },
+        "quiz-14": {
+            "question": {
+                "type": "text",
+                "src": null,
+                "content": [
+                    {
+                        "data": "Em hãy tìm 7 số chẵn liên tiếp có tổng bằng 56",
+                        "center": false
+                    }
+                ]
+            },
+            "answer": {
+                "type": "text",
+                "answer": [
+                    "2, 4, 6, 8, 10, 12, 14",
+                    "1, 3, 5, 7, 9, 11, 13",
+                    "0, 2, 4, 6, 8, 10, 12",
+                    "0, 1, 2, 3, 4, 5, 6"
+                ],
+                "true-answer": 0
+            },
+            "solution": {
+                "src": "https://www.youtube.com/embed/tXljAy1pDlU?autoplay=1"
+            },
+            "last-question": false
+        },
+        "quiz-15": {
+            "question": {
+                "type": "text",
+                "src": null,
+                "content": [
+                    {
+                        "data": "Em hãy tìm 8 số lẻ liên tiếp có tổng bằng 64",
+                        "center": false
+                    }
+                ]
+            },
+            "answer": {
+                "type": "text",
+                "answer": [
+                    "2, 4, 6, 8, 10, 12, 14, 16",
+                    "1, 3, 5, 7, 9, 11, 13, 15",
+                    "0, 2, 4, 6, 8, 10, 12, 14",
+                    "0, 1, 2, 3, 4, 5, 6, 7"
+                ],
+                "true-answer": 1
+            },
+            "solution": {
+                "src": "https://www.youtube.com/embed/tPfLeOiU78M?autoplay=1"
+            },
+            "last-question": false
+        },
+        "quiz-16": {
+            "question": {
+                "type": "text",
+                "src": null,
+                "content": [
+                    {
+                        "data": "Em hãy tìm 4 số lẻ liên tiếp có tổng bằng 40",
+                        "center": false
+                    }
+                ]
+            },
+            "answer": {
+                "type": "text",
+                "answer": [
+                    "2, 4, 6, 8",
+                    "1, 3, 5, 7",
+                    "0, 2, 4, 6",
+                    "7, 9, 11, 13"
+                ],
+                "true-answer": 3
+            },
+            "solution": {
+                "src": "https://www.youtube.com/embed/0m0hV_vaA9A?autoplay=1"
+            },
+            "last-question": false
+        },
+        "quiz-17": {
+            "question": {
+                "type": "text",
+                "src": null,
+                "content": [
+                    {
+                        "data": "Em hãy tìm 5 số chẵn liên tiếp có tổng bằng 40",
+                        "center": false
+                    }
+                ]
+            },
+            "answer": {
+                "type": "text",
+                "answer": [
+                    "2, 4, 6, 8, 10",
+                    "1, 3, 5, 7, 9",
+                    "4, 6, 8, 10, 12",
+                    "7, 9, 11, 13, 15"
+                ],
+                "true-answer": 2
+            },
+            "solution": {
+                "src": "https://www.youtube.com/embed/UC7fB9lVhl0?autoplay=1"
+            },
+            "last-question": true
+        }
+    },
+    "doan-hinh": {
+        "heading": "Bài học: Hình nào tiếp theo?",
+        "tutorial": {
+            "src": "https://www.youtube.com/embed/W9piRXWeP20?autoplay=1"
+        },
+        "quiz-1": {
+            "question": {
+                "type": "img",
+                "src": "doan-hinh/bai1/question.png",
+                "content": null
+            },
+            "answer": {
+                "type": "img",
+                "answer": [
+                    "doan-hinh/bai1/A.png",
+                    "doan-hinh/bai1/B.png",
+                    "doan-hinh/bai1/C.png",
+                    "doan-hinh/bai1/D.png"
+                ],
+                "true-answer": 0
+            },
+            "solution": {
+                "src": "https://www.youtube.com/embed/oj-k0xmTMGE?autoplay=1"
+            },
+            "last-question": false
+        },
+        "quiz-2": {
+            "question": {
+                "type": "img",
+                "src": "doan-hinh/bai2/question.png",
+                "content": null
+            },
+            "answer": {
+                "type": "img",
+                "answer": [
+                    "doan-hinh/bai2/A(dap_an).png",
+                    "doan-hinh/bai2/B.png",
+                    "doan-hinh/bai2/C.png",
+                    "doan-hinh/bai2/D.png"
+                ],
+                "true-answer": 0
+            },
+            "solution": {
+                "src": "https://www.youtube.com/embed/H9dwU6O29cU?autoplay=1"
+            },
+            "last-question": false
+        },
+        "quiz-3": {
+            "question": {
+                "type": "img",
+                "src": "doan-hinh/bai3/question.png",
+                "content": null
+            },
+            "answer": {
+                "type": "img",
+                "answer": [
+                    "doan-hinh/bai3/A.png",
+                    "doan-hinh/bai3/B.png",
+                    "doan-hinh/bai3/C(dap_an).png",
+                    "doan-hinh/bai3/D.png"
+                ],
+                "true-answer": 2
+            },
+            "solution": {
+                "src": "https://www.youtube.com/embed/Mv72Xc89lzc?autoplay=1"
+            },
+            "last-question": false
+        },
+        "quiz-4": {
+            "question": {
+                "type": "img",
+                "src": "doan-hinh/bai4/question.png",
+                "content": null
+            },
+            "answer": {
+                "type": "img",
+                "answer": [
+                    "doan-hinh/bai4/A.png",
+                    "doan-hinh/bai4/B.png",
+                    "doan-hinh/bai4/C.png",
+                    "doan-hinh/bai4/D(dap_an).png"
+                ],
+                "true-answer": 3
+            },
+            "solution": {
+                "src": "https://www.youtube.com/embed/BenVVQTZUEs?autoplay=1"
+            },
+            "last-question": false
+        },
+        "quiz-5": {
+            "question": {
+                "type": "img",
+                "src": "doan-hinh/bai5/question.png",
+                "content": null
+            },
+            "answer": {
+                "type": "img",
+                "answer": [
+                    "doan-hinh/bai5/A.png",
+                    "doan-hinh/bai5/B(dap_an).png",
+                    "doan-hinh/bai5/C.png",
+                    "doan-hinh/bai5/D.png"
+                ],
+                "true-answer": 1
+            },
+            "solution": {
+                "src": "https://www.youtube.com/embed/IxKw2ENZ0ms?autoplay=1"
+            },
+            "last-question": false
+        },
+        "quiz-6": {
+            "question": {
+                "type": "img",
+                "src": "doan-hinh/bai6/question.png",
+                "content": null
+            },
+            "answer": {
+                "type": "img",
+                "answer": [
+                    "doan-hinh/bai6/A.jpg",
+                    "doan-hinh/bai6/B(dap_an).jpg",
+                    "doan-hinh/bai6/C.jpg",
+                    "doan-hinh/bai6/D.jpg"
+                ],
+                "true-answer": 1
+            },
+            "solution": {
+                "src": "https://www.youtube.com/embed/G2aaGbet0fc?autoplay=1"
+            },
+            "last-question": false
+        },
+        "quiz-7": {
+            "question": {
+                "type": "img",
+                "src": "doan-hinh/bai7/question.jpg",
+                "content": null
+            },
+            "answer": {
+                "type": "img",
+                "answer": [
+                    "doan-hinh/bai7/A.jpg",
+                    "doan-hinh/bai7/B.jpg",
+                    "doan-hinh/bai7/C(dap_an).jpg",
+                    "doan-hinh/bai7/D.jpg"
+                ],
+                "true-answer": 2
+            },
+            "solution": {
+                "src": "https://www.youtube.com/embed/RyYgajo7C_M?autoplay=1"
+            },
+            "last-question": false
+        },
+        "quiz-8": {
+            "question": {
+                "type": "img",
+                "src": "doan-hinh/bai8/question.jpg",
+                "content": null
+            },
+            "answer": {
+                "type": "img",
+                "answer": [
+                    "doan-hinh/bai8/A.jpg",
+                    "doan-hinh/bai8/B.jpg",
+                    "doan-hinh/bai8/C.jpg",
+                    "doan-hinh/bai8/D(dap_an).jpg"
+                ],
+                "true-answer": 3
+            },
+            "solution": {
+                "src": "https://www.youtube.com/embed/hYtPf4RrwSk?autoplay=1"
+            },
+            "last-question": false
+        },
+        "quiz-9": {
+            "question": {
+                "type": "img",
+                "src": "doan-hinh/bai9/question.jpg",
+                "content": null
+            },
+            "answer": {
+                "type": "img",
+                "answer": [
+                    "doan-hinh/bai9/A(dap_an).jpg",
+                    "doan-hinh/bai9/B.jpg",
+                    "doan-hinh/bai9/C.jpg",
+                    "doan-hinh/bai9/D.jpg"
+                ],
+                "true-answer": 0
+            },
+            "solution": {
+                "src": "https://www.youtube.com/embed/HwOgKPC2p7U?autoplay=1"
+            },
+            "last-question": true
+        }
+    }
+}
