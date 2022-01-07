@@ -34,7 +34,13 @@
             </div>
             <!-- Question -->
             <div>
-              <p v-if="quizz[`quiz-${page}`]['question']['type']==='img'||quizz[`quiz-${page}`]['question']['type']==='video'" class="text-start fw-bold">Em hãy trả lời câu hỏi trong ảnh/video bên dưới</p>
+              <p v-if="(category === 'tim-chuoi') && (quizz[`quiz-${page}`]['question']['type']==='img'||quizz[`quiz-${page}`]['question']['type']==='video')" 
+                class="text-start fw-bold">
+                  Em hãy trả lời câu hỏi trong ảnh/video bên dưới
+              </p>
+              <p v-if="category === 'doan-hinh'" class="text-start fw-bold">
+                  Em hãy tìm hình tiếp theo với quy luật trong bức ảnh bên dưới
+              </p>
               <iframe v-if="quizz[`quiz-${page}`]['question']['type']==='video'" 
                 class="ratio quiz-vid"
                 width="600" height="300" 
@@ -110,7 +116,7 @@
             <!-- Check answer -->
             <div>
               <div class="d-flex justify-content-center" style="margin-top: 2em;">
-                <button class="button-53" @click="!check ? checkAns() : reset()">{{!check? "Kiểm tra đáp án" : "Làm lại"}}</button>
+                <button class="button-53" @click="handleSubmitButton()">{{!check? "Kiểm tra đáp án" : "Làm lại"}}</button>
               </div>
             </div>
             <!-- View solution -->
@@ -132,7 +138,7 @@
 <script>
 import QuizzData from '../data/index.json'
 
-const IMAGES = require.context('../assets')
+const ASSETS = require.context('../assets')
 
 export default {
   data() {
@@ -159,11 +165,11 @@ export default {
     },
 
     imgUrl(id) {
-      return IMAGES('./' + this.$data.quizz[`quiz-${this.$data.page}`]['answer']['answer'][id])
+      return ASSETS('./' + this.$data.quizz[`quiz-${this.$data.page}`]['answer']['answer'][id])
     },
 
     questionImgUrl() {
-      return IMAGES('./' + this.$data.quizz[`quiz-${this.$data.page}`]['question']['src'])
+      return ASSETS('./' + this.$data.quizz[`quiz-${this.$data.page}`]['question']['src'])
     },
 
     setAns(id) { //id: [0, 1, 2, 3]
@@ -194,7 +200,26 @@ export default {
       } else if (id === this.$data.currentAns) {
         return '#E74630'
       }
-    }
+    },
+
+    handleSubmitButton() {
+      if (!this.$data.check) {
+        let src
+        const page = this.$data.page
+        if (this.$data.currentAns === this.$data.quizz[`quiz-${page}`]['answer']['true-answer']) {
+          src = ASSETS('./sound/true.mp3')
+        } else {
+          src = ASSETS('./sound/false.mp3')
+        }
+
+        const audio = new Audio(src)
+        audio.play()
+
+        this.checkAns()
+      } else {
+        this.reset()
+      }
+    } 
 
   }
 }
