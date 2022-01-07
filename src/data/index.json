@@ -635,6 +635,27 @@
             "solution": {
                 "src": "https://www.youtube.com/embed/HwOgKPC2p7U?autoplay=1"
             },
+            "last-question": false
+        },
+        "quiz-10": {
+            "question": {
+                "type": "img",
+                "src": "doan-hinh/bai10/question.png",
+                "content": null
+            },
+            "answer": {
+                "type": "img",
+                "answer": [
+                    "doan-hinh/bai10/A.png",
+                    "doan-hinh/bai10/B.png",
+                    "doan-hinh/bai10/C(dap_an).png",
+                    "doan-hinh/bai10/D.png"
+                ],
+                "true-answer": 2
+            },
+            "solution": {
+                "src": "https://www.youtube.com/embed/g8h1c1FN-Us?autoplay=1"
+            },
             "last-question": true
         }
     }
